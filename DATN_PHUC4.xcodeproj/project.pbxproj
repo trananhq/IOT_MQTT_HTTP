@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C8146C67880D1BFD63B146 /* Pods_DATN_PHUC4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03DDCF1FA594369C9A8BA2F /* Pods_DATN_PHUC4.framework */; };
+		CF12A9A621E1149400ED1FE4 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12A9A521E1149300ED1FE4 /* Functions.swift */; };
 		CF69DD4B21CE203800E6A91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF69DD4A21CE203800E6A91F /* AppDelegate.swift */; };
 		CF69DD4D21CE203900E6A91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF69DD4C21CE203900E6A91F /* ViewController.swift */; };
 		CF69DD5021CE203900E6A91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF69DD4E21CE203900E6A91F /* Main.storyboard */; };
 		CF69DD5321CE203900E6A91F /* DATN_PHUC4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF69DD5121CE203900E6A91F /* DATN_PHUC4.xcdatamodeld */; };
 		CF69DD5521CE205800E6A91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF69DD5421CE205800E6A91F /* Assets.xcassets */; };
 		CF69DD5821CE205800E6A91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF69DD5621CE205800E6A91F /* LaunchScreen.storyboard */; };
+		CF69DD6221CF9E4700E6A91F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF69DD6121CF9E4600E6A91F /* ViewController2.swift */; };
+		CF69DD6421CFE0D300E6A91F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF69DD6321CFE0D200E6A91F /* background.jpg */; };
+		CFFA898721D1F7BC00CD0971 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFA898621D1F7BB00CD0971 /* plus.png */; };
+		CFFA898C21D2921100CD0971 /* DOT_CONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFA898821D2920E00CD0971 /* DOT_CONNECTED.png */; };
+		CFFA898D21D2921100CD0971 /* BUTTON_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFA898921D2920E00CD0971 /* BUTTON_OFF.png */; };
+		CFFA898E21D2921100CD0971 /* BUTTON_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFA898A21D2920F00CD0971 /* BUTTON_ON.png */; };
+		CFFA898F21D2921100CD0971 /* DOT_DISCONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFA898B21D2921000CD0971 /* DOT_DISCONNECTED.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380F38526C46DEDC3DBA513F /* Pods-DATN_PHUC4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATN_PHUC4.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATN_PHUC4/Pods-DATN_PHUC4.release.xcconfig"; sourceTree = "<group>"; };
+		9F3CE2F8711D747FFAC2F1EB /* Pods-DATN_PHUC4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATN_PHUC4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATN_PHUC4/Pods-DATN_PHUC4.debug.xcconfig"; sourceTree = "<group>"; };
+		CF12A9A521E1149300ED1FE4 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		CF69DD4721CE203800E6A91F /* DATN_PHUC4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DATN_PHUC4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF69DD4A21CE203800E6A91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF69DD4C21CE203900E6A91F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		CF69DD5421CE205800E6A91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF69DD5721CE205800E6A91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF69DD5921CE205800E6A91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF69DD6121CF9E4600E6A91F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CF69DD6321CFE0D200E6A91F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		CFFA898621D1F7BB00CD0971 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		CFFA898821D2920E00CD0971 /* DOT_CONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DOT_CONNECTED.png; sourceTree = "<group>"; };
+		CFFA898921D2920E00CD0971 /* BUTTON_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_OFF.png; sourceTree = "<group>"; };
+		CFFA898A21D2920F00CD0971 /* BUTTON_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_ON.png; sourceTree = "<group>"; };
+		CFFA898B21D2921000CD0971 /* DOT_DISCONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DOT_DISCONNECTED.png; sourceTree = "<group>"; };
+		F03DDCF1FA594369C9A8BA2F /* Pods_DATN_PHUC4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATN_PHUC4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C8146C67880D1BFD63B146 /* Pods_DATN_PHUC4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40E0C78C73F8815B44E7DF3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F3CE2F8711D747FFAC2F1EB /* Pods-DATN_PHUC4.debug.xcconfig */,
+				380F38526C46DEDC3DBA513F /* Pods-DATN_PHUC4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF69DD3E21CE203800E6A91F = {
 			isa = PBXGroup;
 			children = (
 				CF69DD4921CE203800E6A91F /* DATN_PHUC4 */,
 				CF69DD4821CE203800E6A91F /* Products */,
+				40E0C78C73F8815B44E7DF3C /* Pods */,
+				FCCF0691CB44F2AB1DF2E60A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +91,28 @@
 				CF69DD4A21CE203800E6A91F /* AppDelegate.swift */,
 				CF69DD4C21CE203900E6A91F /* ViewController.swift */,
 				CF69DD4E21CE203900E6A91F /* Main.storyboard */,
+				CF69DD6121CF9E4600E6A91F /* ViewController2.swift */,
 				CF69DD5421CE205800E6A91F /* Assets.xcassets */,
 				CF69DD5621CE205800E6A91F /* LaunchScreen.storyboard */,
 				CF69DD5921CE205800E6A91F /* Info.plist */,
 				CF69DD5121CE203900E6A91F /* DATN_PHUC4.xcdatamodeld */,
+				CF69DD6321CFE0D200E6A91F /* background.jpg */,
+				CFFA898621D1F7BB00CD0971 /* plus.png */,
+				CFFA898921D2920E00CD0971 /* BUTTON_OFF.png */,
+				CFFA898A21D2920F00CD0971 /* BUTTON_ON.png */,
+				CFFA898821D2920E00CD0971 /* DOT_CONNECTED.png */,
+				CFFA898B21D2921000CD0971 /* DOT_DISCONNECTED.png */,
+				CF12A9A521E1149300ED1FE4 /* Functions.swift */,
 			);
 			path = DATN_PHUC4;
+			sourceTree = "<group>";
+		};
+		FCCF0691CB44F2AB1DF2E60A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F03DDCF1FA594369C9A8BA2F /* Pods_DATN_PHUC4.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF69DD5C21CE205800E6A91F /* Build configuration list for PBXNativeTarget "DATN_PHUC4" */;
 			buildPhases = (
+				055F167131861EB77A52E3A0 /* [CP] Check Pods Manifest.lock */,
 				CF69DD4321CE203800E6A91F /* Sources */,
 				CF69DD4421CE203800E6A91F /* Frameworks */,
 				CF69DD4521CE203800E6A91F /* Resources */,
+				04A5801DA17E93B577BE2D56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +175,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFA898F21D2921100CD0971 /* DOT_DISCONNECTED.png in Resources */,
+				CFFA898E21D2921100CD0971 /* BUTTON_ON.png in Resources */,
 				CF69DD5821CE205800E6A91F /* LaunchScreen.storyboard in Resources */,
+				CFFA898721D1F7BC00CD0971 /* plus.png in Resources */,
+				CF69DD6421CFE0D300E6A91F /* background.jpg in Resources */,
+				CFFA898D21D2921100CD0971 /* BUTTON_OFF.png in Resources */,
 				CF69DD5521CE205800E6A91F /* Assets.xcassets in Resources */,
 				CF69DD5021CE203900E6A91F /* Main.storyboard in Resources */,
+				CFFA898C21D2921100CD0971 /* DOT_CONNECTED.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A5801DA17E93B577BE2D56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DATN_PHUC4/Pods-DATN_PHUC4-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DATN_PHUC4/Pods-DATN_PHUC4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		055F167131861EB77A52E3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATN_PHUC4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF69DD4321CE203800E6A91F /* Sources */ = {
@@ -139,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF69DD4D21CE203900E6A91F /* ViewController.swift in Sources */,
+				CF69DD6221CF9E4700E6A91F /* ViewController2.swift in Sources */,
 				CF69DD5321CE203900E6A91F /* DATN_PHUC4.xcdatamodeld in Sources */,
+				CF12A9A621E1149400ED1FE4 /* Functions.swift in Sources */,
 				CF69DD4B21CE203800E6A91F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,37 +395,41 @@
 		};
 		CF69DD5D21CE205800E6A91F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3CE2F8711D747FFAC2F1EB /* Pods-DATN_PHUC4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 469XBCAMPX;
 				INFOPLIST_FILE = DATN_PHUC4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "TAQ.DATN-PHUC4";
+				PRODUCT_BUNDLE_IDENTIFIER = "TAQ.DATN-PHUC4444gggg";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF69DD5E21CE205800E6A91F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380F38526C46DEDC3DBA513F /* Pods-DATN_PHUC4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 469XBCAMPX;
 				INFOPLIST_FILE = DATN_PHUC4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "TAQ.DATN-PHUC4";
+				PRODUCT_BUNDLE_IDENTIFIER = "TAQ.DATN-PHUC4444gggg";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
